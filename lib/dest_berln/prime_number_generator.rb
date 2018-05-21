@@ -52,7 +52,7 @@ class PrimeNumberGenerator
 
 
   ## Sieve of Eratosthenes
-  def sieve_of_erastosthenes
+  def sieve_of_eratosthenes
     is_prime = Array.new(max_limit, true)
     is_prime[0] = is_prime[1] = true
     smallest_prime_factor = Array.new(max_limit, 0)
